@@ -46,6 +46,7 @@ public class Penghitungan implements Rumus{
 
     @Override
     public double luasSegitiga() {
-        return 0.5 * alas * tinggi;
+        return 0.5 * alas * tinggi * sudut;
     }
+    
 }
